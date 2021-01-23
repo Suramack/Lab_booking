@@ -1,3 +1,4 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:lab_test_booking_app/Screens/BookingScreen.dart';
 import 'package:lab_test_booking_app/Screens/Forgot%20Password.dart';
@@ -5,9 +6,7 @@ import 'package:lab_test_booking_app/Screens/Lab1.dart';
 import 'package:lab_test_booking_app/Screens/LabInfo.dart';
 import 'package:lab_test_booking_app/Screens/LoginScreen.dart';
 import 'package:lab_test_booking_app/Screens/RegistrationScreen.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:lab_test_booking_app/Screens/TestInfo.dart';
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
